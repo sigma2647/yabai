@@ -98,5 +98,5 @@ yabai -m rule --add app="^Reminders$"        space=4
 
 
 #app 
-otherApp='^(访达|uTools|utools|Utools|uTools|Calendar|日历|Cubox Helper|Cubox 助手)$'
+otherApp='^(访达|uTools|utools|Utools|uTools|Calendar|日历|Cubox Helper|Cubox 助手|Stickies|便笺|活动监视器|System Preferences|系统偏好设置)$'
 yabai -m rule --add app="${otherApp}" manage=off
