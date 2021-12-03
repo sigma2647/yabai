@@ -1,6 +1,5 @@
 ## 安装
-- 在`Big Sur`这个系统里面，每次重启都需要自行的在终端输入`sudo yabai --load-sa`这行命令`yabai`才能正常启动，  
-为了解决这种情况，作者给出了解决方案：
+- 在`Big Sur`这个系统里面，每次重启都需要自行的在终端输入`sudo yabai --load-sa`这行命令`yabai`才能正常启动,为了解决这种情况，作者给出了解决方案：
 ```shell
 sudo visudo -f /private/etc/sudoers.d/yabai
 ```
@@ -18,7 +17,6 @@ yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 ```
 ## 问题
 - 如何更新文件
-
 ## todo
 manage window set which app run on that window
 
